@@ -1,0 +1,26 @@
+{
+  "projects": {
+    "default": "play-873d7"
+  },
+
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/app.html"
+    }
+  ]
+}
